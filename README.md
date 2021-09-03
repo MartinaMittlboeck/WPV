@@ -1,5 +1,5 @@
 # WPV
-A SAS-macro for weighted pseudo-values
+A SAS macro for weighted pseudo-values
 
 ## Overview
 WPV is a SAS macro to calculate and analyse weighted pseudo-values in case of a latent binary covariate that emerges over time as proposed by Mittlböck, Pötschger and Heinzl (2021).
