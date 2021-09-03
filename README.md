@@ -9,10 +9,10 @@ Calculation and analysis of weighted pseudo-values (WPV) is motivated by investi
 By considering the probability that a donor would have been identified after ceasing of donor search, weights for common pseudo-values are defined. 
 A weighted generalized linear model is used to estimate survival probabilities at a predefined time point of interest for both groups and their cumulative hazard ratio (cHR) together with their confidence intervals. 
 
-The Macro call for the simulated example data set named *simbsp_A_1000_0.5* would be 
+The Macro call for the simulated example data set named *simbsp_a_1000_05* would be 
 > libname simdat '*Data_Path*'; 
 > <br> %include "*Macro_Path*\WPV_SAS_Macro.sas"; 
-> <br> %WPV(data=simdat.simbsp_A_1000_50, td_time=binary_time, surv_time=time, surv_event=event, tsearch=3, tstar=5, result_out=result_out); 
+> <br> %WPV(data=simdat.simbsp_a_1000_50, td_time=binary_time, surv_time=time, surv_event=event, tsearch=3, tstar=5, result_out=result_out); 
 
 for an analysis time point at 5 years (t*) for the pseudo-values and for a maximum time to identify the group membership of 3 years.
 <br> *Data_Path* should be replaced by the path where the data set is stored and *Macro_Path* has to be replaced by the path where the SAS macro is stored.
