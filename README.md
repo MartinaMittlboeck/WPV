@@ -19,5 +19,5 @@ for an analysis time point at 5 years (t*) for the pseudo-values and for a maxim
 
 
 ## References
-* Mittlböck M, Pötschger U. and Heinzl H.: Weighted pseudo-values for partly unobserved group membership in paediatric stem cell transplantation studies. Stat Methods Med Res 2021; to appear.
+* Mittlböck M, Pötschger U. and Heinzl H.: Weighted pseudo-values for partly unobserved group membership in paediatric stem cell transplantation studies. Stat Methods Med Res 2022; 31(1): 76-86.
 * Andersen PK and Pohar Perme M. Pseudo-observations in survival analysis. Stat Methods Med Res 2010; 19: 71–99.
